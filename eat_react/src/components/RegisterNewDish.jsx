@@ -25,8 +25,7 @@ function RegisterNewDish() {
       )
 
       .then(() => {
-        setDish("");
-        window.location.reload();
+        //window.location.reload();
       }
       )
     }

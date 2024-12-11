@@ -33,5 +33,10 @@
     "name": "cabrito",
     "image": {},
     "type": "main-course"
+  },
+  {
+    "name": "aletria",
+    "image": {},
+    "type": "dessert"
   }
 ]

@@ -1,7 +1,8 @@
+import { useLocation } from "react-router-dom";
 import Admin from "../components/admin";
 import Client from "../components/client";
 import Cook from "../components/cook";
-import { useLocation } from "react-router-dom";
+import { Dishes } from "../components/Dishes";
 
 function LandingPage () {
     const location = useLocation();
@@ -26,6 +27,7 @@ function LandingPage () {
         <div>  
         ola landing page
         {handleRole()}
+        
         </div>
         )
 

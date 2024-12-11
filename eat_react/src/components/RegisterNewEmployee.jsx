@@ -43,20 +43,19 @@ function RegisterNewEmployee() {
         <h2>Welcome on board!</h2>
         <p>This is the best place to work 🚀</p>
         <hr />
-        <div className="control-row">
-          <div className="control">
+        <div>
+          <div>
             <label htmlFor="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" 
-            required/>
+            <input type="text" id="first-name" name="first-name" required/>
           </div>
   
-          <div className="control">
+          <div>
             <label htmlFor="last-name">Last Name</label>
             <input type="text" id="last-name" name="last-name" required />
           </div>
         </div>
   
-        <div className="control">
+        <div>
           <label htmlFor="phone">Job Title</label>
           <select id="role" name="role" required>
             <option value="cook">Cook</option>
@@ -67,29 +66,24 @@ function RegisterNewEmployee() {
 
         <hr />
 
-        <div className="control">
+        <div>
           <label htmlFor="email">Email</label>
           <input id="email" type="email" name="email" required />
         </div>
   
-        <div className="control-row">
-          <div className="control">
+        <div>
+          <div>
             <label htmlFor="password">Password</label>
             <input id="password" type="password" name="password" required />
           </div>
-          <div className="control">
+          <div>
             <label htmlFor="confirm-password">Confirm Password</label>
-            <input
-              id="confirm-password"
-              type="password"
-              name="confirmPassword"
-              required
-            />
+            <input id="confirm-password" type="password" name="confirmPassword" required/>
             {passwordsAreNotEqual && 
             <div>Passwords must match</div>}
           </div>
         </div>
-        <p className="form-actions"><button type="submit" className="button">Register New Employee</button></p>
+        <p><button type="submit">Register New Employee</button></p>
       </form>
     );
   }

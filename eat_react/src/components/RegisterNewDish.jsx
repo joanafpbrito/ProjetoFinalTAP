@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function RegisterNewDish() {
-  const [dish, setDish] = useState("");
+  const [dish, setDish] = useState([]);
   const navigate = useNavigate();
 
     function handleSubmit(event){
@@ -24,9 +24,11 @@ function RegisterNewDish() {
         }   
       )
 
-      navigate("/", {
-        state: {message: "Dish successfully inserted!"}
-      });
+      .then(() => {
+        setDish("");
+        window.location.reload();
+      }
+      )
     }
 
 

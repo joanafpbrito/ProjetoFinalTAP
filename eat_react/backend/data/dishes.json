@@ -1,7 +1,37 @@
 [
   {
-    "name": "a",
+    "name": "rabanadas",
     "image": {},
     "type": "dessert"
+  },
+  {
+    "name": "mojito",
+    "image": {},
+    "type": "drink"
+  },
+  {
+    "name": "bacalhau",
+    "image": {},
+    "type": "main-course"
+  },
+  {
+    "name": "bilharacos",
+    "image": {},
+    "type": "dessert"
+  },
+  {
+    "name": "frutos secos",
+    "image": {},
+    "type": "snack"
+  },
+  {
+    "name": "Vinho",
+    "image": {},
+    "type": "drink"
+  },
+  {
+    "name": "cabrito",
+    "image": {},
+    "type": "main-course"
   }
 ]

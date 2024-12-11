@@ -59,48 +59,37 @@ export default function Signup() {
         <h2>Welcome to Eat React!</h2>
         <p>Sign up to see all the digital menus we have 🚀</p>
   
-        <div className="control">
+        <div>
           <label htmlFor="email">Email</label>
           <input id="email" type="email" name="email" required />
         </div>
   
-        <div className="control-row">
-          <div className="control">
+        <div>
+          <div>
             <label htmlFor="password">Password</label>
             <input id="password" type="password" name="password" required />
           </div>
-          <div className="control">
+          <div>
             <label htmlFor="confirm-password">Confirm Password</label>
-            <input
-              id="confirm-password"
-              type="password"
-              name="confirmPassword"
-              required
-            />
-            {passwordsAreNotEqual && 
-            <div>Passwords must match</div>}
-   
-
+            <input id="confirm-password" type="password" name="confirmPassword" required />
+            {passwordsAreNotEqual && <div>Passwords must match</div>}
           </div>
         </div>
-  
         <hr />
-  
-        <div className="control-row">
-          <div className="control">
+        <div>
+          <div>
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" name="name" 
-            required/>
+            <input type="text" id="name" name="name" required/>
           </div>
         </div>
-        <div className="control">
+        <div>
           <label htmlFor="terms-and-conditions">
             <input required type="checkbox" id="terms-and-conditions" name="terms" />
             I agree to the terms and conditions
           </label>
         </div>
   
-        <p className="form-actions"><button type="submit" className="button">Sign up</button></p>
+        <p><button type="submit">Sign up</button></p>
       </form>
     );
   }

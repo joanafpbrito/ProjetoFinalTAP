@@ -94,8 +94,8 @@ app.post("/dishes", async (req, res) => {
 
 app.get("/dishes", async (req, res) => {
     const fileContent = await fs.readFile("./data/dishes.json");
-    const dishes = JSON.parse(fileContent);
-    res.status(200).json({ dishes });
+    const dishesData = JSON.parse(fileContent);
+    res.status(200).json({ dishes: dishesData});
   });
   
 

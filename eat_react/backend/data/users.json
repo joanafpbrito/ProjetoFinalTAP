@@ -1,0 +1,23 @@
+[
+  {
+    "email": "client@client.client",
+    "password": "client@client.client",
+    "name": "client@client.client",
+    "role": "client",
+    "termsAccepted": true
+  },
+  {
+    "email": "admin@admin.admin",
+    "password": "admin@admin.admin",
+    "name": "admin@admin.admin",
+    "role": "admin",
+    "termsAccepted": true
+  },
+  {
+    "email": "cook@cook.cook",
+    "password": "cook@cook.cook",
+    "name": "cook@cook.cook",
+    "role": "cook",
+    "termsAccepted": true
+  }
+]
